@@ -8,9 +8,14 @@
     const scoreLabel = document.querySelector('#result > p')
 
     const quizSet = shuffle([
-        {q: '世界で一番大きな湖は？', c: ['カスピ海', 'カリブ海', '琵琶湖']},
-        {q: '2の8乗は？', c: ['256', '64', '1024']},
-        {q: '次のうち、最初にリリースされた言語は？', c: ['Python', 'JavaScript', 'HTML']},
+        {q: 'FINAL FANTASY Xの主人公の名前は？', c: ['ティーダ', 'クラウド', 'ヴァン']},
+        {q: 'FINAL FANTASY VIIでセフィロスが使っている武器の名前は？', c: ['正宗', '村正', 'バスターソード']},
+        {q: '次のうちFINAL FANTASYシリーズの登場人物ではないのは誰？', c: ['ビアンカ', 'リュック', 'ホープ']},
+        {q: 'FINAL FANTASY XIIが最初に発売されたのはどのハード？', c: ['PlayStation 2', 'PlayStation 3', 'PlayStation']},
+        {q: 'FINAL FANTASY VIのラスボスは誰？', c: ['ケフカ', 'シーモア', 'エクスデス']},
+        {q: 'FINAL FANTASY Vでバッツが相棒にしていたのは？', c: ['チョコボ', 'カーバンクル', 'モーグリ']},
+        {q: 'FINAL FANTASY XIIIのライトニングの本名は？', c: ['エクレール・ファロン', 'セラ・ファロン', 'エミリア・ファロン']},
+        {q: 'FINAL FANTASY IXでジタンが所属していた盗賊団の名前は？', c: ['タンタラス', 'アバランチ', 'ダルマスカ']},
     ]);
     let currentNum = 0
     let isAnswered
